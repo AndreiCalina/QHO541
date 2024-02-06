@@ -1,5 +1,6 @@
 const express = require('express')
 const path = require("path")
+require('dotenv').config()
 
 const app = express()
 const ejs = require('ejs')
@@ -27,7 +28,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 //MONGOOSE
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1/eflyer').then(()=>{
+mongoose.connect(process.env.MONGODB_URL_LOCAL).then(()=>{
    console.log('Connection successful')
  });
 
@@ -154,8 +155,8 @@ const jewelleryController = require('./controllers/jewellery')
 app.get('/jewellery', jewelleryController)
 
 //Port number and hostname !! COMMENTED IN CASE THERE ARE ANY ISSUES
-const port = 3040;
-// const hostname = '127.0.0.1';
+const port = process.env.PORT;
+const hostname = process.env.HOSTNAME;
 
 // Telling server to listen on given port/hostname variables
 app.listen(port, () => {

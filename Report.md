@@ -2,9 +2,9 @@
   ## Andrei Calina 10297201 ##
    ## Eflyer E-Shop ##
 
-## Cyclic:
+## Cyclic:  - Deployed successfully but says Error application cannot start
 QHO541
-https://calm-gray-clam.cyclic.app
+https://good-erin-betta-shoe.cyclic.app/   
 ## GitHub:
 https://github.com/AndreiCalina/QHO541.git
 
