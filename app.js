@@ -154,7 +154,7 @@ const jewelleryController = require('./controllers/jewellery')
 app.get('/jewellery', jewelleryController)
 
 //Port number and hostname !! COMMENTED IN CASE THERE ARE ANY ISSUES
-//const port = 3040;
+const port = 3040;
 // const hostname = '127.0.0.1';
 
 // Telling server to listen on given port/hostname variables
