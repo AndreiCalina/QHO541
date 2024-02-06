@@ -2,6 +2,14 @@
   ## Andrei Calina 10297201 ##
    ## Eflyer E-Shop ##
 
+## Cyclic:
+QHO541
+https://calm-gray-clam.cyclic.app
+## GitHub:
+https://github.com/AndreiCalina/QHO541.git
+
+
+
 # Introduction
 
 The idea for this project came from seeing the rising trend of online shopping and realizing the need for businesses to have a strong online presence. 
